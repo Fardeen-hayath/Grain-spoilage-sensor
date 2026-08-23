@@ -1,0 +1,18 @@
+{
+  "name": "chip-mh-z19",
+  "author": "Fardeen Hayath",
+  "pins": [
+    "VCC",
+    "GND",
+    "A0",
+    "D0","","",""
+  ],
+  "controls": [{
+      "id": "ppm",
+      "label": "PPM",
+      "type": "range",
+      "min":10,
+      "max":1000,
+      "step": 1
+    }]
+}

@@ -1,0 +1,12 @@
+[wokwi]
+version = 1
+firmware = ".pio/build/esp32dev/firmware.bin"
+elf = ".pio/build/esp32dev/firmware.elf"
+
+[[chip]]
+name = "mh-z19"
+binary = "mh-z19.chip.wasm"
+
+[[chip]]
+name = "moisture-sensor"
+binary = "moisture-sensor.chip.wasm"
